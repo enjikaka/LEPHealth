@@ -1,0 +1,29 @@
+name: LEPHealth
+main: se.enji.lep.Health
+author: enjikaka
+website: http://enji.se
+version: 0.1
+
+commands:
+    heal:
+        description: Changes the time to day.
+        usage: Type /<command> to heal yourself.
+        permission: lep.health.heal
+    godmode:
+        description: Toggle god-mode
+        usage: Type /<command> to toggle god-mode.
+        permission: lep.health.godmode
+    kill:
+    	        description: Toggle god-mode
+        usage: Type /<command> to toggle god-mode.
+        permission: lep.health.godmode
+permissions:
+    lep.health.*:
+        description: Gives access to all Time commands.
+        children:
+            lep.health.heal: true
+            lep.health.godmode: true
+    lep.health.heal:
+        description: Allows you to heal yourself.
+    lep.health.godmode:
+        description: Allows you to toggle god-mode.

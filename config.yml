@@ -1,0 +1,8 @@
+messages:
+    heal: "§aYou are healed."
+    godmode:
+        enabled: "§aGodmode enabled."
+        disabled: "§aGodmode disabled."
+    error:
+        wrongWay: "§cYou executed the command in a wrong way."
+        notAllowed: "§cYou are not allowed to use this command."
